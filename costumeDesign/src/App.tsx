@@ -2,9 +2,6 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Experience from "./pages/Experience";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
 
 /**
  * The router will send different URLs to different pages, and let us link between them all.
@@ -14,15 +11,8 @@ import Projects from "./pages/Projects";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <About />,
+    element: <></>,
   },
-  {
-    path: "/experience",
-    element: <Experience />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
   },
 ]);
 
