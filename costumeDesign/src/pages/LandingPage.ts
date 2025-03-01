@@ -3,8 +3,7 @@ import {PageWrapper} from "../pageSections/PageWrapper";
 
 const LandingPage: React.FC = () => {
     return (
-        <PageWrapper>
-        <PageWrapper>
+        <PageWrapper></PageWrapper>
     );
   };
   
