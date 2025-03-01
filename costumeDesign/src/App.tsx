@@ -2,6 +2,7 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LandingPage from "./pages/LandingPage"
 
 /**
  * The router will send different URLs to different pages, and let us link between them all.
@@ -11,8 +12,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <></>,
-  },
+    element: <LandingPage>,
   },
 ]);
 

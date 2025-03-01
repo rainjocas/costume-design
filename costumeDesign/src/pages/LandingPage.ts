@@ -1,8 +1,11 @@
-import React from "react";
+import React, { Children } from "react";
+import {PageWrapper} from "../pageSections/PageWrapper";
 
-const About: React.FC = () => {
+const LandingPage: React.FC = () => {
     return (
+        <PageWrapper>
+        <PageWrapper>
     );
   };
   
-  export default About;
+  export default LandingPage;
