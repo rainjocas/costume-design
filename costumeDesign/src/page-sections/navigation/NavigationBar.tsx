@@ -21,9 +21,19 @@ export function NavigationBar() {
             </div>
           </Link>
           <Nav className= "flex flex-row items-center bg-theme_red rounded-lg absolute right-5" role="navigation">
-            <NavLink src={"/research"}>Research</NavLink>
-            <NavLink src={"/sketches"}>Sketches</NavLink>
-            <NavLink src={"/final-designs"}>Final Designs</NavLink>
+          <NavLink src={"/Ai-Lee-Woods"}>Ai Lee Woods</NavLink>
+            <NavLink src={"/Anna-Monaghan"}>Anna Monaghan</NavLink>
+            <NavLink src={"/Declan-OConnell"}>Declan O'Connell</NavLink>
+            <NavLink src={"/Elana-Sheinkopf"}>Elana Sheinkopf</NavLink>
+            <NavLink src={"/Erica-Erdenesanaa"}>Erica Erdenesanaa</NavLink>
+            <NavLink src={"/Gwen-Gleason"}>Gwen Gleason</NavLink>
+            <NavLink src={"/Martina-Tognato-Guaqueta"}>Martina Tognato Guaqueta</NavLink>
+            <NavLink src={"/Mira-Pickus"}>Mira Pickus</NavLink>
+            <NavLink src={"/Molly-Richardson"}>Molly Richardson</NavLink>
+            <NavLink src={"/Rain-Jocas"}>Rain Jocas</NavLink>
+            <NavLink src={"/Space-Pace"}>Space Pace</NavLink>
+            <NavLink src={"/Tali-Serlin"}>Tali Serlin</NavLink>
+            <NavLink src={"/Zoe-Buettner"}>Zoe-Buettner</NavLink>
           </Nav>
         </div>
       </Navbar>
@@ -57,9 +67,19 @@ function SideBar({ name, ...props }) {
         <SewingMachineSVG/>
       </Offcanvas.Header>
       <Offcanvas.Body role="navigation" className="align-center justify-content-start flex-grow-1 pe-3 flex flex-col items-center">
-        <NavLink src={"/research"}>Research</NavLink>
-        <NavLink src={"/sketches"}>Sketches</NavLink>
-        <NavLink src={"/final-designs"}>Final Designs</NavLink>
+        <NavLink src={"/Ai-Lee-Woods"}>Ai Lee Woods</NavLink>
+        <NavLink src={"/Anna-Monaghan"}>Anna Monaghan</NavLink>
+        <NavLink src={"/Declan-OConnell"}>Declan O'Connell</NavLink>
+        <NavLink src={"/Elana-Sheinkopf"}>Elana Sheinkopf</NavLink>
+        <NavLink src={"/Erica-Erdenesanaa"}>Erica Erdenesanaa</NavLink>
+        <NavLink src={"/Martina-Tognato-Guaqueta"}>Martina Tognato Guaqueta</NavLink>
+        <NavLink src={"/Mira-Pickus"}>Mira Pickus</NavLink>
+        <NavLink src={"/Molly-Richardson"}>Molly Richardson</NavLink>
+        <NavLink src={"/Rain-Jocas"}>Rain Jocas</NavLink>
+        <NavLink src={"/Space-Pace"}>Space Pace</NavLink>
+        <NavLink src={"/Tali-Serlin"}>Tali Serlin</NavLink>
+        <NavLink src={"/Zoe-Buettner"}>Zoe-Buettner</NavLink>
+        <NavLink src={"/Erica-Erdenesanaa"}>Erica Erdenesanaa</NavLink>
       </Offcanvas.Body>
     </Offcanvas>
   </div>
