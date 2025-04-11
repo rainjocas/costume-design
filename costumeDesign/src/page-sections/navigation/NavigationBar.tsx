@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import HamburgerSVG from "../../assets/Hamburger";
 import NavLink from "./NavLink";
 import SewingMachineSVG from "../../assets/SewingMachine";
-import SewingMachine from "../../assets/SewingMachine.svg";
 
 export function NavigationBar() {
   return (
