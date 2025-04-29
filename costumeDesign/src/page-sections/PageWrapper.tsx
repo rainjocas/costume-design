@@ -1,7 +1,6 @@
 import React from "react";
 import SkipLink from "./navigation/Skiplink";
 import { Menu } from "./navigation/NavigationBar";
-import Footer from "./Footer";
 
 /**
  * Wrapper Component Props
