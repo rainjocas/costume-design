@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const Mira: React.FC = () => {
     return (
@@ -56,6 +57,12 @@ const Mira: React.FC = () => {
                     finalimg5Alt={People[7].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[7].name}
+                email={People[7].email}
+                phone={People[7].phone}
+                linkedIn={People[7].linkedIn}
+            />
         </PageWrapper>
     );
   };

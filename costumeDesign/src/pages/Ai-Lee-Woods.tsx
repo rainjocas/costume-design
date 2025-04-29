@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const AiLee: React.FC = () => {
     return (
@@ -56,6 +57,12 @@ const AiLee: React.FC = () => {
                     finalimg5Alt={People[0].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[0].name}
+                email={People[0].email}
+                phone={People[0].phone}
+                linkedIn={People[0].linkedIn}
+            />
         </PageWrapper>
     );
   };

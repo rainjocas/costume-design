@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const Declan: React.FC = () => {
     return (
@@ -55,6 +56,12 @@ const Declan: React.FC = () => {
                     finalimg5Alt={People[2].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[2].name}
+                email={People[2].email}
+                phone={People[2].phone}
+                linkedIn={People[2].linkedIn}
+            />
         </PageWrapper>
     );
   };

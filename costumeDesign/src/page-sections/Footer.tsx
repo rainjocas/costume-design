@@ -1,4 +1,5 @@
 import React from "react";
+import Linkedin from "../assets/LinkedIn";
 
 /**
  * Footer props:
@@ -18,8 +19,9 @@ const Footer: React.FC<footerProps> = ({
       <footer role="contentinfo" className="mt-10">
         {/* contentInfo is used to identify common information at the bottom of every page */} 
         {/* Outer div for bg and inner divs for containers then add content*/}
-        <div className="py-10 w-full bg-theme_purple px-12">
+        <div className="py-10 w-full bg-theme_purple px-12 justify-center items">
           <div className="text-white mt-10 w-full mx-auto max-w-5xl justify-center items-center">
+            <button><a href={linkedIn}><Linkedin/></a></button>
             <p><i>{name}</i></p>
             <p>{email} {phone}</p>
           </div>

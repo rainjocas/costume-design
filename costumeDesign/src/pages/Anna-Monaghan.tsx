@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const Anna: React.FC = () => {
     return (
@@ -56,6 +57,12 @@ const Anna: React.FC = () => {
                     finalimg5Alt={People[1].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[1].name}
+                email={People[1].email}
+                phone={People[1].phone}
+                linkedIn={People[1].linkedIn}
+            />
         </PageWrapper>
     );
   };

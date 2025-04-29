@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const Erica: React.FC = () => {
     return (
@@ -56,6 +57,12 @@ const Erica: React.FC = () => {
                     finalimg5Alt={People[4].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[4].name}
+                email={People[4].email}
+                phone={People[4].phone}
+                linkedIn={People[4].linkedIn}
+            />
         </PageWrapper>
     );
   };

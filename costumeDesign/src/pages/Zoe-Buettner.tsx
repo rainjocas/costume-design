@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const Zoe: React.FC = () => {
     return (
@@ -56,6 +57,12 @@ const Zoe: React.FC = () => {
                     finalimg5Alt={People[12].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[12].name}
+                email={People[12].email}
+                phone={People[12].phone}
+                linkedIn={People[12].linkedIn}
+            />
         </PageWrapper>
     );
   };

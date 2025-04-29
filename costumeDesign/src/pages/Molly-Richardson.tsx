@@ -2,6 +2,7 @@ import React from "react";
 import {PageWrapper} from "../page-sections/PageWrapper";
 import Person from "../components/Person";
 import { People } from "../utils/PeopleInfo";
+import Footer from "../page-sections/Footer";
 
 const Molly: React.FC = () => {
     return (
@@ -56,6 +57,12 @@ const Molly: React.FC = () => {
                     finalimg5Alt={People[8].finalimg5Alt}
                 />
             </main>
+            <Footer
+                name={People[8].name}
+                email={People[8].email}
+                phone={People[8].phone}
+                linkedIn={People[8].linkedIn}
+            />
         </PageWrapper>
     );
   };
