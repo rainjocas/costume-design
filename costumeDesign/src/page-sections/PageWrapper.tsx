@@ -1,6 +1,7 @@
 import React from "react";
 import SkipLink from "./navigation/Skiplink";
 import { Menu } from "./navigation/NavigationBar";
+import Footer from "./Footer";
 
 /**
  * Wrapper Component Props
@@ -20,7 +21,7 @@ export const PageWrapper: React.FC<WrapperProps> = ({ children, }) => {
         <div tabIndex={0} role="document">
             <SkipLink skipTo={"#main"}></SkipLink>
             <Menu />
-            <div id="page-content">
+            <div id="page-content" className="">
                 {children}
             </div>
         </div>

@@ -7,7 +7,12 @@ module.exports = {
         theme_red: "#A50104",
         theme_orange: "#F37940",
         theme_black: "#000000",
-        theme_grey: "#535454"
+        theme_grey: "#535454",
+        theme_darkPurple: "#493D9E",
+        theme_purple: "#8E7DBE",
+        theme_pink: "#F7CFD8",
+        theme_blue: "#A6D6D6",
+        theme_yellow: "#EEF1DA",
       },
     },
   },

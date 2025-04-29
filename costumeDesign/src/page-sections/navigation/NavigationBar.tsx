@@ -51,7 +51,7 @@ function SideBar({ name, ...props }) {
   
   return (
     <div role="banner">
-    <div className="flex flex-row justify-between py-2">
+    <div className="bg-theme_blue flex flex-row justify-between py-2">
       <Link className="no-underline text-darkGreen pl-5" to="/">
         <a href = "/" target = "_target">
           <SewingMachineSVG/>
@@ -62,10 +62,10 @@ function SideBar({ name, ...props }) {
       </nav>
     </div>
     <Offcanvas show={show} onHide={handleClose} {...props}> {/*responsive design can be removed if glitchy by deleting responsive = "md" */}
-      <Offcanvas.Header closeButton className = "">
+      <Offcanvas.Header closeButton className = "bg-theme_blue">
         <SewingMachineSVG/>
       </Offcanvas.Header>
-      <Offcanvas.Body role="navigation" className="align-center justify-content-start flex-grow-1 pe-3 flex flex-col items-center">
+      <Offcanvas.Body role="navigation" className="bg-theme_pink align-center justify-content-start flex-grow-1 pe-3 flex flex-col items-center">
         <NavLink src={"/Ai-Lee-Woods"}>Ai Lee Woods</NavLink>
         <NavLink src={"/Anna-Monaghan"}>Anna Monaghan</NavLink>
         <NavLink src={"/Declan-OConnell"}>Declan O'Connell</NavLink>

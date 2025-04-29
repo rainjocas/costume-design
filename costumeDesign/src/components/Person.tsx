@@ -108,15 +108,13 @@ const Person: React.FC<personProps> = ({
                     {constructionStatement}
                 <h3>Costume Sketches</h3>
                     <div className="flex flex-row items-center justify-center">
-                        <img className = "w-1/4" src = {productionimg1} alt = {productionimg1Alt}/>
-                        <img className = "w-1/4" src = {productionimg2} alt = {productionimg2Alt}/>
-                        <img className = "w-1/4" src = {productionimg3} alt = {productionimg3Alt}/>
-                        <img className = "w-1/4" src = {productionimg4} alt = {productionimg4Alt}/>
+                        <img className = "w-1/2" src = {productionimg1} alt = {productionimg1Alt}/>
+                        <img className = "w-1/2" src = {productionimg2} alt = {productionimg2Alt}/>
                     </div>
-                    <img src = {productionimg1} alt = {productionimg1Alt}/>
-                        <img src = {productionimg2} alt = {productionimg2Alt}/>
-                        <img src = {productionimg3} alt = {productionimg3Alt}/>
-                        <img src = {productionimg4} alt = {productionimg4Alt}/>
+                    <div className="flex flex-row items-center justify-center">
+                        <img className = "w-1/2" src = {productionimg3} alt = {productionimg3Alt}/>
+                        <img className = "w-1/2" src = {productionimg4} alt = {productionimg4Alt}/>
+                    </div>
             <h2>Midsummer Night's Dream</h2>
                 <h3>Artist Statement</h3>
                     <p>{finalStatement}</p>

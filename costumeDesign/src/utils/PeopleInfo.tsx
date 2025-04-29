@@ -39,6 +39,12 @@ export const People = [
     {
         id: 9,
         name: "Rain-Jocas",
+
+        email: "rainjocas@gmail.com",
+        phone: "703-999-7579",
+        linkedIn: "https://www.linkedin.com/in/rain-jocas-34866a262/",
+        resume: "",
+
         workName: "Restaurant Worker",
         workClothingimg: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
         workClothingimgAlt: "alt text",

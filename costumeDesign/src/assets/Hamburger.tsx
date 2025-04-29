@@ -20,10 +20,10 @@ const HamburgerSVG: React.FC<MySVGProps> = ({ className, onClick, onKeyDown}) =>
     <svg 
         aria-label="Sidebar Button"
         xmlns="http://www.w3.org/2000/svg" 
-        fill={ColorPalette.red}  
+        fill={ColorPalette.darkPurple}  
         viewBox="0 0 24 24" 
         stroke-width="1.5" 
-        stroke={ColorPalette.red} 
+        stroke={ColorPalette.darkPurple} 
         className={className}
         onClick={onClick} // Pass onClick handler to svg element
         onKeyDown={onKeyDown} // Pass onKeyDown handler to svg element
