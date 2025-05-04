@@ -261,5 +261,4 @@ export const People = [
         finalimg5: ZoeMidsummer5,
         finalimg5Alt: "An outdated and (partially) lion-inspired Prom outfit designed for character, Snug.",
     },
-
 ]
