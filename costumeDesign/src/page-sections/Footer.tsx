@@ -27,9 +27,7 @@ const Footer: React.FC<footerProps> = ({
             <p>{email} {phone}</p>
           </div>
         </div>
-      
       </footer>
-      
     );
   }
   else return ( 

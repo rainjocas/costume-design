@@ -28,6 +28,24 @@ import SpaceMidsummer3 from "../assets/Space-Pace/Midsummer3.png"
 import SpaceMidsummer4 from "../assets/Space-Pace/Midsummer4.png"
 import SpaceMidsummer5 from "../assets/Space-Pace/Midsummer5.png"
 
+import ZoeWorker from "../assets/Zoe-Buettner/Candy.jpg"
+import ZoeWorkerPL from "../assets/Zoe-Buettner/WorkClothingPL.jpg"
+import ZoeMusic1 from "../assets/Zoe-Buettner/Threads1.jpg"
+import ZoeMusic2 from "../assets/Zoe-Buettner/Threads2.jpg"
+import ZoeMusicPL from "../assets/Zoe-Buettner/MusicResponsePL.jpg"
+import ZoeConstruction1 from "../assets/Zoe-Buettner/Marlene.jpg"
+import ZoeConstruction2 from "../assets/Zoe-Buettner/Griselda.jpg"
+import ZoeConstruction3 from "../assets/Zoe-Buettner/Gret.jpg"
+import ZoeProduction1 from "../assets/Zoe-Buettner/Winter1.jpg"
+import ZoeProduction2 from "../assets/Zoe-Buettner/Winter2.jpg"
+import ZoeProduction3 from "../assets/Zoe-Buettner/Winter3.jpg"
+import ZoeProduction4 from "../assets/Zoe-Buettner/Spring.jpg"
+import ZoeMidsummer1 from "../assets/Zoe-Buettner/Hermia.jpg"
+import ZoeMidsummer2 from "../assets/Zoe-Buettner/Hippolyta.jpg"
+import ZoeMidsummer3 from "../assets/Zoe-Buettner/LoveinIdleness.jpg"
+import ZoeMidsummer4 from "../assets/Zoe-Buettner/Puck.jpg"
+import ZoeMidsummer5 from "../assets/Zoe-Buettner/Snug.jpg"
+
 export const People = [
     {
         id: 0,
@@ -65,7 +83,8 @@ export const People = [
         id: 8,
         name: "Molly-Richardson",
     },
-    {id: 9,
+    {
+        id: 9,
         name: "Rain Jocas",
 
         email: "rainjocas@gmail.com",
@@ -189,57 +208,58 @@ export const People = [
     },
     {
         id: 12,
-        name: "Zoe-Buettner",
-        email: "",
+        name: "Zoe Buettner",
+
+        email: "zoescott430@gmail.com",
         phone: "",
         linkedIn: "",
         resume: "",
 
-        workName: "",
-        workClothingimg: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        workClothingimgAlt: "alt text",
-        workClothingPeiceList: "",
+        workName: "Candy",
+        workClothingimg: ZoeWorker,
+        workClothingimgAlt: "A sketch of Candy, a server at Social Goose Restaurant and Bar in her work attire.",
+        workClothingPeiceList: ZoeWorkerPL,
 
-        musicName: "",
-        musicStatement: "",
-        musicimg1: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        musicimg1Alt: "alt text ",
-        musicimg2: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        musicimg2Alt: "alt text ",
-        musicPeiceList: "",
+        musicName: "Threads - This Will Destroy You",
+        musicStatement: "https://drive.google.com/file/d/1ln2R_bgypLG2eQs2CMqiyDWxCxeMcaPQ/view?usp=drive_link",
+        musicimg1: ZoeMusic1,
+        musicimg1Alt: "A sketch of Dancer #1 wearing a flowy outfit characterized by its warm color scheme.",
+        musicimg2: ZoeMusic2,
+        musicimg2Alt: "A sketch of Dancer #2 wearing a flowy outfit to match that of Dancer #1, but differentiated by a cool, purple color palette.",
+        musicPeiceList: ZoeMusicPL,
 
-        constructionName: "",
-        constructionStatement: "",
-        constructionimg1: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        constructionimg1Alt: "alt text ",
-        constructionimg2: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        constructionimg2Alt: "alt text ",
-        constructionimg3: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        constructionimg3Alt: "alt text ",
+        constructionName: "Top Girls - Caryl Churchill",
+        constructionStatement: "https://drive.google.com/file/d/1uQuO9hVwo_JdO90ZgI-yZUT5c3Gb1aYi/view?usp=drive_link",
+        constructionimg1: ZoeConstruction1,
+        constructionimg1Alt: "A sketch of my 90's professional costume designed for Top Girls character, Marlene.",
+        constructionimg2: ZoeConstruction2,
+        constructionimg2Alt: "A sketch of my princess-inspired costume designed for Top Girls character, Griselda",
+        constructionimg3: ZoeConstruction3,
+        constructionimg3Alt: "A sketch of my grunge, streetwear inspired costume for Top Girls character, Gret.",
 
-        productionName: "",
-        productionStatement: "",
-        productionimg1: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        productionimg1Alt: "alt text ",
-        productionimg2: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        productionimg2Alt: "alt text ",
-        productionimg3: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        productionimg3Alt: "alt text ",
-        productionimg4: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        productionimg4Alt: "alt text ",
+        productionName: "Waters of March - Art Garfunkel",
+        productionStatement: "https://drive.google.com/file/d/1Hi72EsP5x8mrhEzTu10EwTWODX0v5hKx/view?usp=drive_link",
+        productionimg1: ZoeProduction1,
+        productionimg1Alt: "A sketch of my muted costume designed to represent winter in Wisconsin.",
+        productionimg2: ZoeProduction2,
+        productionimg2Alt: "A sketch of my professional and athletic costume designed for a dancer.",
+        productionimg3: ZoeProduction3,
+        productionimg3Alt: "A sketch of my costume design for a dancer depicting the dull greys of late winter.",
+        productionimg4: ZoeProduction4,
+        productionimg4Alt: "A sketch of my colorful and child-like costume designed to represent the coming of Spring. ",
 
-        finalName: "",
-        finalStatement: "",
-        finalimg1: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        finalimg1Alt: "alt text ",
-        finalimg2: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        finalimg2Alt: "alt text ",
-        finalimg3: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        finalimg3Alt: "alt text ",
-        finalimg4: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        finalimg4Alt: "alt text ",
-        finalimg5: "https://live.staticflickr.com/65535/54350591506_185865703d.jpg",
-        finalimg5Alt: "alt text ",
+        finalName: "A Midsummer Night's Prom",
+        finalStatement: "https://drive.google.com/file/d/12DsuUBAXNeRZZM-xK-3mUy1f_kCMHRme/view?usp=drive_link",
+        finalimg1: ZoeMidsummer1,
+        finalimg1Alt: "A sketch of my muted red prom dress inspired by the character, Hermia, with outside influence from Romeo and Juliet's character, Juliet.",
+        finalimg2: ZoeMidsummer2,
+        finalimg2Alt: "A sketch of my angular prom dress designed for character, Hippolyta, inspired by her upcoming wedding in the play.",
+        finalimg3: ZoeMidsummer3,
+        finalimg3Alt: "A sketch of a prom dress inspired by the white and purple Love in Idleness flower which is used throughout the play to make characters fall in love with one another.",
+        finalimg4: ZoeMidsummer4,
+        finalimg4Alt: "A Jessica Rabbit-inspired prom dress designed for the mischievous character, Puck.",
+        finalimg5: ZoeMidsummer5,
+        finalimg5Alt: "An outdated and (partially) lion-inspired Prom outfit designed for character, Snug.",
     },
 
 ]
