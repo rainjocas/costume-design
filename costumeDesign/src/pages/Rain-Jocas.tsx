@@ -11,7 +11,7 @@ const Rain: React.FC = () => {
                 <Person 
                     name={People[9].name}
 
-                    workName={People[9].workName}
+                    workName={People[0].workName}
                     workClothingimg={People[9].workClothingimg}
                     workClothingimgAlt={People[9].workClothingimgAlt}
                     workClothingPeiceList={People[9].workClothingPeiceList}

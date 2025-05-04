@@ -8,9 +8,9 @@ const Space: React.FC = () => {
     return (
         <PageWrapper>
             <main className="py-8">
-                <Person 
-                    name = {People[10].name}
-                    
+            <Person 
+                    name={People[10].name}
+
                     workName={People[10].workName}
                     workClothingimg={People[10].workClothingimg}
                     workClothingimgAlt={People[10].workClothingimgAlt}

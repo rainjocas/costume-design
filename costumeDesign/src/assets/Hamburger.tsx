@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorPalette } from '../utils/Themes';
+import { ColorPalette } from '../../src/utils/Themes';
 
 // Define props interface
 interface MySVGProps {
