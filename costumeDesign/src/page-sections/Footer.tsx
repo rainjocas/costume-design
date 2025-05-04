@@ -14,7 +14,7 @@ interface footerProps {
 const Footer: React.FC<footerProps> = ({ 
     name, email, phone, linkedIn
 }) => {
-  if (linkedIn != "") {
+  if (linkedIn !== "") {
     return (
       
       <footer role="contentinfo" className="mt-10">

@@ -1,4 +1,3 @@
-import React from "react"
 import RainWorker from "../assets/Rain-Jocas/Worker.png"
 import RainMusic from "../assets/Rain-Jocas/Ballet.png"
 import RainConstruction1 from "../assets/Rain-Jocas/Astronaut.png"
