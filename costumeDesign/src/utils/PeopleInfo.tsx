@@ -87,6 +87,11 @@ export const People = [
     {
         id: 0,
         name: "Ai-Lee-Woods",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 1,
@@ -144,23 +149,47 @@ export const People = [
     {
         id: 2,
         name: "Declan-OConnell",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 3,
         name: "Elana-Sheinkopf",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 4,
         name: "Erica-Erdenesanaa",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 5,
         name: "Gwen-Gleason",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 6,
-
         name: "Martina Tognato Guaqueta",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
 
         workName: "Ruby: HNFR EMT",
         workClothingimg: MartinaWorker,
@@ -212,10 +241,19 @@ export const People = [
     {
         id: 7,
         name: "Mira-Pickus",
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 8,
         name: "Molly-Richardson",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 9,
@@ -339,6 +377,11 @@ export const People = [
     {
         id: 11,
         name: "Tali-Serlin",
+
+        email: "",
+        phone: "",
+        linkedIn: "",
+        resume: "",
     },
     {
         id: 12,
