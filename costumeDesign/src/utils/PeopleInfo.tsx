@@ -1,3 +1,39 @@
+import AnnaWorker from "../assets/Anna-Monaghan/Work Clothing Sketch.png"
+import AnnaWorkerPL from "../assets/Anna-Monaghan/WorkPL.png"
+import AnnaMusic1 from "../assets/Anna-Monaghan/Music #1.png"
+import AnnaMusic2 from "../assets/Anna-Monaghan/Music #2.png"
+import AnnaMusicPL from "../assets/Anna-Monaghan/Music Piece List.png"
+import AnnaConstruction1 from "../assets/Anna-Monaghan/Ivan.png"
+import AnnaConstruction2 from "../assets/Anna-Monaghan/Katenka.png"
+import AnnaConstruction3 from "../assets/Anna-Monaghan/Firebird.png"
+import AnnaProduction1 from "../assets/Anna-Monaghan/Marilla.png"
+import AnnaProduction2 from "../assets/Anna-Monaghan/Renfield.png"
+import AnnaProduction3 from "../assets/Anna-Monaghan/Jonathan.png"
+import AnnaProduction4 from "../assets/Anna-Monaghan/Lucy.png"
+import AnnaMidsummer1 from "../assets/Anna-Monaghan/Hippolyta.png"
+import AnnaMidsummer2 from "../assets/Anna-Monaghan/Lysander.png"
+import AnnaMidsummer3 from "../assets/Anna-Monaghan/Helena.png"
+import AnnaMidsummer4 from "../assets/Anna-Monaghan/Snout.png"
+import AnnaMidsummer5 from "../assets/Anna-Monaghan/Titania.png"
+
+import MartinaWorker from "../assets/Martina-Tognato-Guaqueta/Worker.jpg"
+import MartinaWorkerPL from "../assets/Martina-Tognato-Guaqueta/WorkerPL.png"
+import MartinaMusic1 from "../assets/Martina-Tognato-Guaqueta/Music1.jpg"
+import MartinaMusic2 from "../assets/Martina-Tognato-Guaqueta/Music2.jpg"
+import MartinaMusicPL from "../assets/Martina-Tognato-Guaqueta/MusicPL.png"
+import MartinaConstruction1 from "../assets/Martina-Tognato-Guaqueta/Construction1.png"
+import MartinaConstruction2 from "../assets/Martina-Tognato-Guaqueta/Construction2.png"
+import MartinaConstruction3 from "../assets/Martina-Tognato-Guaqueta/Construction3.png"
+import MartinaProduction1 from "../assets/Martina-Tognato-Guaqueta/Production1.png"
+import MartinaProduction2 from "../assets/Martina-Tognato-Guaqueta/Production2.png"
+import MartinaProduction3 from "../assets/Martina-Tognato-Guaqueta/Production3.png"
+import MartinaProduction4 from "../assets/Martina-Tognato-Guaqueta/Production4.png"
+import MartinaMidsummer1 from "../assets/Martina-Tognato-Guaqueta/Midsummer1.png"
+import MartinaMidsummer2 from "../assets/Martina-Tognato-Guaqueta/Midsummer2.png"
+import MartinaMidsummer3 from "../assets/Martina-Tognato-Guaqueta/Midsummer3.png"
+import MartinaMidsummer4 from "../assets/Martina-Tognato-Guaqueta/Midsummer4.png"
+import MartinaMidsummer5 from "../assets/Martina-Tognato-Guaqueta/Midsummer5.png"
+
 import RainWorker from "../assets/Rain-Jocas/Worker.png"
 import RainMusic from "../assets/Rain-Jocas/Ballet.png"
 import RainConstruction1 from "../assets/Rain-Jocas/Astronaut.png"
@@ -15,6 +51,7 @@ import RainMidsummer5 from "../assets/Rain-Jocas/Lover.png"
 
 import SpaceWorkers from "../assets/Space-Pace/Workers.png"
 import SpaceMusic1 from "../assets/Space-Pace/Music1.png"
+import SpaceMusic2 from "../assets/Space-Pace/Music2.png"
 import SpaceConstruction1 from "../assets/Space-Pace/Construction1.png"
 import SpaceConstruction2 from "../assets/Space-Pace/Construction2.png"
 import SpaceConstruction3 from "../assets/Space-Pace/Construction3.png"
@@ -53,7 +90,56 @@ export const People = [
     },
     {
         id: 1,
-        name: "Anna-Monaghan",
+        name: "Anna Monaghan",
+        email: "amonaghan@bowdoin.edu",
+        phone: "617-548-1670",
+        linkedIn: "https://www.linkedin.com/in/anna-monaghan-10408532b/",
+
+        workName: "Teacher Work Clothing",
+        workClothingimg: AnnaWorker,
+        workClothingimgAlt: "Woman wearing a blue sweater, black pants, brown boots, and gold jewelry.",
+        workClothingPieceList: AnnaWorkerPL,
+        
+        musicName: "Glósóli by Sigur Rós",
+        musicStatement: "https://drive.google.com/file/d/1jKXBxXKrJF646BpDexneGpSKQeEXFNwR/view?usp=share_link",
+        musicimg1: AnnaMusic1,
+        musicimg1Alt: "Drawing model of a sheer blue robe. Image text: robe overlayer, taken off during musical transition.",
+        musicimg2: AnnaMusic2,
+        musicimg2Alt: "Drawing model, two dancers in brightly colored tops and black bottoms of different styles.",
+        musicPieceList: AnnaMusicPL,
+        
+        constructionName: "The Firebird Suite by Igor Stravinsky",
+        constructionStatement: "https://drive.google.com/file/d/18mvUGsBRtEnsRAKmYwepj2E1D2byyLXW/view?usp=share_link",
+        constructionimg1: AnnaConstruction1,
+        constructionimg1Alt: "Man with green cloak, black pants, and boots. Then the same man with no cloak, a blue shirt with grey embroidery, and a silver circlet on his head.",
+        constructionimg2: AnnaConstruction2,
+        constructionimg2Alt: "Woman dressed in a veil, a ballet dress with a long, full skirt, and ballet shoes, all purple, and a gold circlet on her head.",
+        constructionimg3: AnnaConstruction3,
+        constructionimg3Alt: "Woman in a flowing red dress with gold detailing, and flowing red arm pieces. The dress’s inner layer resembles flame.",
+        
+        productionName: "Dracula by Kate Hamill",
+        productionStatement: "https://drive.google.com/file/d/1Tyk9_HwM3BvC8b9fB1dy0_6KvtMThvW2/view?usp=share_link",
+        productionimg1: AnnaProduction1,
+        productionimg1Alt: "Woman in a light silver slip dress and black lace choker. The hem of the dress is ripped and dirty.",
+        productionimg2: AnnaProduction2,
+        productionimg2Alt: "Person in a long white t-shirt, cream colored jogger pants, and white socks",
+        productionimg3: AnnaProduction3,
+        productionimg3Alt: "A man in a light grey hat, and light colored, professional clothing: a button down, slacks, and a vest.",
+        productionimg4: AnnaProduction4,
+        productionimg4Alt: "Two of the same woman, one wearing a white, mid-length dress, floral-patterned jacket, gloves and white flats, the other wearing only the dress, now dirty",
+
+        finalName: "Shakespeare’s A Midsummer Night’s Dream",
+        finalStatement: "https://drive.google.com/file/d/1jD1TOvCsCNKQQsSLgr_K-yIPuWloj1gU/view?usp=share_link",
+        finalimg1: AnnaMidsummer1,
+        finalimg1Alt: "A woman in a thick fur coat, tan scarf, loose white turtleneck shirt, brown pants, and brown leather boots.",
+        finalimg2: AnnaMidsummer2,
+        finalimg2Alt: "A man in hiking clothes: a rain jacket with waist belt, shorts, hiking socks and boots, a walking stick, and a backpack.",
+        finalimg3: AnnaMidsummer3,
+        finalimg3Alt: "Two of the same woman in a mini skirt, blouse, long socks and platform shoes. The second woman has on a matching poncho and hat.",
+        finalimg4: AnnaMidsummer4,
+        finalimg4Alt: "Two of the same man in grey coveralls, a belt, and black boots. The second man wears a sandwich board with a stone wall pattern over his clothes.",
+        finalimg5: AnnaMidsummer5,
+        finalimg5Alt: "Woman in a long, hippie-style white dress, wearing silver and blue jewelry, a blue flower crown, and a blue cape with a long train.",
     },
     {
         id: 2,
@@ -73,7 +159,55 @@ export const People = [
     },
     {
         id: 6,
-        name: "Martina-Tognato-Guaqueta",
+
+        name: "Martina Tognato Guaqueta",
+
+        workName: "Ruby: HNFR EMT",
+        workClothingimg: MartinaWorker,
+        workClothingimgAlt: "Drawing of EMT. Three iterations with a polo, quarter-zip and reflective a jacket",
+        workClothingPeiceList: MartinaWorkerPL,
+
+        musicName: "Threads - this will destroy you",
+        musicStatement: "I saw this as a journey and a love story. This song made me think about the feeling of disconnect and the subsequent reconnect in a relationship, particularly long-distance. The idea of coming together brings out the best in one another, but does not make them the same person. The transformation from the initial drab, ill-fitting clothes to well-fitting colorful pieces with odes to each other brings this story to life. The initial pieces are necessarily “ugly” alone, but through the process of mundanity and autopilot, they have become misbuttoned or unevenly rolled. The second pieces represent their similarity but also their differences. Rather than melting into each other, they complement each other.",
+        musicimg1: MartinaMusic1,
+        musicimg1Alt: " Drawing of a dancer. Two iterations, one in beige polo and cargo shorts the other in blue scalloped dress.",
+        musicimg2: MartinaMusic2,
+        musicimg2Alt:"Drawing of a dancer. Two iterations, one in beige button up shirt and long pants, the other in a yellow scalloped dress",
+        musicPeiceList: MartinaMusicPL,
+        
+        constructionName: "Top Girls",
+        constructionStatement: "This is a play centered around the idea of deconstructing the patriarchy and seeing it in bare bones. The first scene takes place in this timeless “realm” where women from many different time periods and areas. The common thread being that they represent an aspect of misogyny and its effects. I chose to focus in on Lady Bird, Pope Joan, and Marlene. These characters spoke to me on a play level, but also on a costume level. I wanted to go for a more classical approach to emphasize the time difference between the characters.",
+        constructionimg1: MartinaConstruction1,
+        constructionimg1Alt: "Drawing of a person wearing a red suit jacket and grey dress pants, with black heels",
+        constructionimg2: MartinaConstruction2,
+        constructionimg2Alt: "Drawing of a person wearing pope regalia, made in orange tones.",
+        constructionimg3: MartinaConstruction3,
+        constructionimg3Alt: "Drawing of a person wearing a grey and yellow victorian style skirt blouse and jacket.",
+        
+        productionName: "Dos Oruguitas",
+        productionStatement: "Colombia is the place I call home. The first time I saw this movie I was overcome with an intense sense of homesickness, joy and sadness. This song is the epitome of this feeling. Gabriel García Márquez y la mariposa amarilla. Modern and traditional young and old ",
+        productionimg1: MartinaProduction1,
+        productionimg1Alt: "Drawing of a person wearing a traditional colombian yellow skirt and white tank top",
+        productionimg2: MartinaProduction2,
+        productionimg2Alt: "Drawing of a person wearing a ruffle red wrap skirt with a white tank top and red jewelery.", 
+        productionimg3: MartinaProduction3,
+        productionimg3Alt: "Drawing of a person wearing a long scalloped blue skirt and a white tank top",
+        productionimg4: MartinaProduction4,
+        productionimg4Alt: "Drawing of a person wearing and pink ruffle skirt and a white tank top.",
+        
+        finalName: "A M[aine]summer Night’s Dream",
+        finalStatement: "I have been yearning for summer as of late… a lot. I have spent my summers up heer in Maine for so so many years and so I could not help but imbue this story with it. I could help but equate the duality of inland vs coastal Maine with the lovers vs the mechanicals. With this in mind I sought out a way to bring the soul of maine into the story, so the fairies will be folklore inspired. A combination of color palettes come to mind as the two worlds collide. So as usual I will hopefully play with color in a way to bring the story forth. ",
+        finalimg1: MartinaMidsummer1,
+        finalimg1Alt: "Drawing of a person wearing a white dress with a wooden body harness. She also has an antler crown",
+        finalimg2: MartinaMidsummer2,
+        finalimg2Alt: "Drawing of a person wearing a distressed blue sweater and brown cargo bands. He has a fishing net sash and a blue beanie",
+        finalimg3: MartinaMidsummer3,
+        finalimg3Alt: "Drawing of a person wearing denim shorts and white linen shirt. She is also wearing a blue bandana",
+        finalimg4: MartinaMidsummer4,
+        finalimg4Alt: "Drawing of a person wearing an open beige linen shirt and brown crago shorts",
+        finalimg5: MartinaMidsummer5,
+        finalimg5Alt: "Drawing of a person wearing brown overalls and a blue undershirt",
+
     },
     {
         id: 7,
@@ -156,7 +290,7 @@ export const People = [
         musicStatement: "Idea of losing touch with someone as they move away/ as the relationship becomes long distance; Costume restricting the movement of one of the dancers, making it harder to reach out to each other; Use of patterned fabrics to represent personality/ character traits; Patterned fabrics coming off of the costume as the distance between them increases",
         musicimg1: SpaceMusic1,
         musicimg1Alt: "Drawing of a person wearing a multi-layered dress with long layered sleeves, made up of fabrics of various patterns",
-        musicimg2: "https://drive.google.com/file/d/1pEBSNtqJauHLKj7mqqBURGBlkJl977sP/view?usp=share_link", 
+        musicimg2: SpaceMusic2, 
         musicimg2Alt: "Drawing of a person wearing a costume that consists of a panel of fabric made up of various patented fabrics wrapped around them. The costume unwraps and reveals a fully black outfit underneath",
         musicPeiceList: "Costume 2: Two Sleeves, Patterned Piece Bottom, Patterned Piece Top, Black shirt, Black Pants, Black Dance Shoes",
 
@@ -221,7 +355,7 @@ export const People = [
         workClothingPeiceList: ZoeWorkerPL,
 
         musicName: "Threads - This Will Destroy You",
-        musicStatement: "https://drive.google.com/file/d/1ln2R_bgypLG2eQs2CMqiyDWxCxeMcaPQ/view?usp=drive_link",
+        musicStatement: "'Threads' starts slowly with a consistent rhythm and gentle guitar. The slowness and deep chords create an earthy feel with the notes flowing into one another. This pushed me to select floral patterns, and muted, natural colors for the costumes. The prolonged nature of each chord inspired me to design costumes that would flow with the movements of the dancers, both fast and slow. As a result, I decided on long, multi-layered skirts with floral patterns as I thought they’d represent the movement and earthiness of the song. This is further emphasized by the loose crochet sleeves added to each dancer's costume as they shift with their movements. The costume doesn’t include shoes because I feel that this look captures the song’s informal nature. Additionally, both dancers are depicted with simple hairstyles that allow movement. Through this emphasis on the flowing nature of the costumes, I worked to create an earthy feel and a sense of connectedness between the dancers and their movements.",
         musicimg1: ZoeMusic1,
         musicimg1Alt: "A sketch of Dancer #1 wearing a flowy outfit characterized by its warm color scheme.",
         musicimg2: ZoeMusic2,
@@ -229,7 +363,7 @@ export const People = [
         musicPeiceList: ZoeMusicPL,
 
         constructionName: "Top Girls - Caryl Churchill",
-        constructionStatement: "https://drive.google.com/file/d/1uQuO9hVwo_JdO90ZgI-yZUT5c3Gb1aYi/view?usp=drive_link",
+        constructionStatement: "Act I of Caryl Churchill’s Top Girls depicts a celebratory dinner for Marlene attended by some of her closest friends: historical, female figures. The scene has a New York City essence, and I couldn’t help but think of Sex and The City as I read these women, close female friends, as they drink wine and talk over one another in a smoky steakhouse. Throughout the scene, the figures tell stories of their lives, many including a lack of choice/consent and painful interactions with men. To counteract this sense of powerlessness in parts of their stories, I want their costumes to give them autonomy and embrace sexuality while being reminiscent of their time periods and geographic origins. Since all of the characters other than Marlene are deceased, I want their costumes to reflect versions of themselves in the afterlife. More glamorous and almost angelic, to give them an otherworldly feel, while still fitting into the setting. To help them fit in, I want each of their outfits to be modern, with small pieces that reflect the stories of their lives.",
         constructionimg1: ZoeConstruction1,
         constructionimg1Alt: "A sketch of my 90's professional costume designed for Top Girls character, Marlene.",
         constructionimg2: ZoeConstruction2,
@@ -238,7 +372,7 @@ export const People = [
         constructionimg3Alt: "A sketch of my grunge, streetwear inspired costume for Top Girls character, Gret.",
 
         productionName: "Waters of March - Art Garfunkel",
-        productionStatement: "https://drive.google.com/file/d/1Hi72EsP5x8mrhEzTu10EwTWODX0v5hKx/view?usp=drive_link",
+        productionStatement: "Garfunkel’s song, “Waters of March,” illustrates the late winter mood as we anticipate the coming of spring. The song is characterized by spoken words and a consistent beat that is marked by staccato guitar chords. These short chords are reminiscent of typing, bringing to mind a fluorescently lit grey office. Similarly, I am reminded of the weather of February and March as the snow becomes grey and brown on the side of the road and clouds fill the sky. However, after each chorus, a synth interlude plays, contrasting with the mundane quality of the verses. Each time, it is queued by a slight variation of Garfunkel’s words, “and the riverbank talks of the waters of March, it’s the end of the strain, it’s the joy in your heart.” To me, these interludes represent glimmers of spring as the uplifting lyrics contrast with the bland lists that fill the verses. These short moments of contrast within the song bring to mind costumes that represent the greys of late winter and the sharpness of staccato notes versus those that represent the glimmering waters and colorful hues of spring.",
         productionimg1: ZoeProduction1,
         productionimg1Alt: "A sketch of my muted costume designed to represent winter in Wisconsin.",
         productionimg2: ZoeProduction2,
@@ -249,7 +383,7 @@ export const People = [
         productionimg4Alt: "A sketch of my colorful and child-like costume designed to represent the coming of Spring. ",
 
         finalName: "A Midsummer Night's Prom",
-        finalStatement: "https://drive.google.com/file/d/12DsuUBAXNeRZZM-xK-3mUy1f_kCMHRme/view?usp=drive_link",
+        finalStatement: "The day after receiving this assignment, my high school announced that their theme for this year’s prom would be “A Midsummer Night’s Dream. As I read the play over the past week, I have been imagining formal Prom attire that encapsulate the characters and motifs in the play as they change throughout the story. I absolutely loved the mystical and humorous nature of the play as depicted through fairies, magical flowers, and ominous woods. I want the designed Prom outfits to be a bit over-the-top to fully grasp this sense of magic. To do so, I plan to draw design inspiration from red-carpet formal wear. While translating Shakespeare’s depiction of magic, I want to draw pieces from his other works, specifically Romeo and Juliet, drawing similarities between his leading female characters, Hermia and Juliet.",
         finalimg1: ZoeMidsummer1,
         finalimg1Alt: "A sketch of my muted red prom dress inspired by the character, Hermia, with outside influence from Romeo and Juliet's character, Juliet.",
         finalimg2: ZoeMidsummer2,
