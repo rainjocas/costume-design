@@ -16,6 +16,24 @@ import AnnaMidsummer3 from "../assets/Anna-Monaghan/Helena.png"
 import AnnaMidsummer4 from "../assets/Anna-Monaghan/Snout.png"
 import AnnaMidsummer5 from "../assets/Anna-Monaghan/Titania.png"
 
+import DeclanWorker from "../assets/Declan-OConnell/Work_Uniform_Sketch.png"
+import DeclanWorkerPL from "../assets/Declan-OConnell/WorkClothingPieceList.png"
+import DeclanMusic1 from "../assets/Declan-OConnell/LIFTER.png"
+import DeclanMusic2 from "../assets/Declan-OConnell/FLYER.png"
+import DeclanMusicPL from "../assets/Declan-OConnell/MusicPieceList.png"
+import DeclanConstruction1 from "../assets/Declan-OConnell/DullGret.png"
+import DeclanConstruction2 from "../assets/Declan-OConnell/LadyNijo.png"
+import DeclanConstruction3 from "../assets/Declan-OConnell/PopeJoan.png"
+import DeclanProduction1 from "../assets/Declan-OConnell/Prince.jpg"
+import DeclanProduction2 from "../assets/Declan-OConnell/Lover.jpg"
+import DeclanProduction3 from "../assets/Declan-OConnell/King-Caped.jpg"
+import DeclanProduction4 from "../assets/Declan-OConnell/Attendant.jpg"
+import DeclanMidsummer1 from "../assets/Declan-OConnell/The_Fae.png"
+import DeclanMidsummer2 from "../assets/Declan-OConnell/Athenians.png"
+import DeclanMidsummer3 from "../assets/Declan-OConnell/Bottom.png"
+import DeclanMidsummer4 from "../assets/Declan-OConnell/Bottom 2.png"
+import DeclanMidsummer5 from "../assets/Declan-OConnell/Bottom 3.png"
+
 import MartinaWorker from "../assets/Martina-Tognato-Guaqueta/Worker.jpg"
 import MartinaWorkerPL from "../assets/Martina-Tognato-Guaqueta/WorkerPL.png"
 import MartinaMusic1 from "../assets/Martina-Tognato-Guaqueta/Music1.jpg"
@@ -148,12 +166,58 @@ export const People = [
     },
     {
         id: 2,
-        name: "Declan-OConnell",
+        name: "Declan O'Connell",
 
         email: "",
         phone: "",
         linkedIn: "",
         resume: "",
+
+        workName: "Work Clothing Project - Student Admissions Volunteer Organizer (SAVO)",
+        workClothingimg: DeclanWorker,
+        workClothingimgAlt: "Drawing of Student Admissions Volunteer Organizer in Bowdoin merch",
+        workClothingPeiceList:DeclanWorkerPL,
+
+        musicName: "Glósóli by Sigur Rós",
+        musicStatement: "To me, this song primarily evokes a sense of wonder. It makes sense, as the name translated means “let the sun glow”. In the constant drone at the start of the music, as the subtler tones begin to creep in, it’s a pure world being portrayed. As drums pick up and more instruments join, I see the dancers emerging into this world and exploring it, maybe discovering some of the natural wonder we all lose in the process of growing up as they do. The vocals of the song provide a soft lilt to dance to, reaching for a sun in the dark ‘sky’ of the stage above. The song isn’t very percussive, but much slower and with a steady flow. From that, the dance likely would be in a much softer style than hip-hop, with very purposeful but steady movements. From the high lilting voice and the general reach for wonder, it makes sense as well to envision lifts as part of the dance. As the percussion becomes more intense in the final two minutes the dance can increase in tempo and desperation, grasping for that ethereal something and breaking out of the ways we get stuck living as adults. An increased pace of movement, coordinated towards the same goal, and on the final resounding chord of the song one of the dancers finally is propelled to be able to reach the ‘sun’ and grab hold of it. I hope to make this piece firmly about reclaiming that wonder, even if it means ignoring what we accept as the current natural order.",
+        musicimg1: DeclanMusic1,
+        musicimg1Alt: "Sketch on a black background of a dance costume, titled 'Lifter'",
+        musicimg2: DeclanMusic2,
+        musicimg2Alt: "Sketch on a black background of a dance costume, titled 'Flyer'",
+        musicPeiceList: DeclanMusicPL,
+
+        constructionName: "Top Girls by Caryl Churchill",
+        constructionStatement: "Top Girls, broadly, is a show that questions modern femininity and success by looking at historical women’s paths to achieving that success. In just the first scene, the audience is introduced to this intersection through the meeting of Marlene and the 6 historical women. In thinking about costuming this show, it feels important to highlight that the show is not trying to educate or examine feminism in historical contexts but instead use that historical information to further highlight the parallels to modern feminism. Since the show means to ask questions about modernity it seems important to try and modernize the costumes, but it is also important that the historical figures do not get too far separated from their original context. Keeping all that in mind, my vision for the costuming of this show is to blend the two while staying true to the essence of each historical character brought up. For Marlene, it must be clear she is a businesswoman. For Isabella, her travels must be clear to the audience. For Lady Nijo, her background is important but her end as a Buddhist nun is more important. For Dull Gret, she must seem like the woman from folklore and the painting brought to the table. For Pope Jean, the masculine dress of modern clergy best captures the essence of her story. For Patient Griselda, she must appear like a woman of noble status. In costuming this show, it’s important to not only properly represent each historical figure but also allow the table of 6 to seem like a complete gathering of distinct people. I hope that by blending a little bit of modern dress into all the costumes as a throughline, they can appear as a cohesive group while still being able to fully deliver on their historical identities.",
+        constructionimg1: DeclanConstruction1,
+        constructionimg1Alt: "A sketch of a costume for Dull Gret, with armor over more standard workwear",
+        constructionimg2: DeclanConstruction2,
+        constructionimg2Alt: "A sketch for a costume for Lady Nijo, clad in modern Japanese Buddhist robes",
+        constructionimg3: DeclanConstruction3,
+        constructionimg3Alt: "A sketch for a costume for Pope Joan, in a red-edged Priest cassock",
+
+        productionName: "Jupiter, Bringer of Jollity by Gustav Holst",
+        productionStatement: "While “Jupiter” features a very consistent, almost bouncy tone in it’s composition from the orchestra I feel that part that lends itself most to telling a story is the interplay between the very loud, brassy sections which almost seem to be in conversation with lighter sections played by the flute and triangle. The overall piece feels much like a grand ball, going in and out of waltz tempo as the mood requires. With the more classical sound, this piece can tell a story much like Cinderella, as love is found, lost, sought for again, and ultimately confirmed. It feels inherently grand, being a full orchestra piece. While creating characters from the instruments, it seems obvious that the ‘love interest’ of the fairy tale is represented by the lighter flute parts, many of which echo the recent movements of the bigger brass section which can then be the voice of both the ‘prince’ and the royal court. Additionally, there is a bridge between these two sections in the form of a recurring trumpet part which can be both a ‘narrator’ of sorts and an aide of the royals, being a brass instrument. With the many echoes between the light and heavy parts, the story can switch perspectives between the runaway lover and the prince in pursuit, while also cutting back to the royal court in uproar occasionally. Being a dance, the story won’t be told in words but in motions. This means a lot of more ‘classical’ styles of dance, likely mixing ballet, ballroom, and waltzes as the song switches tempo and tone. For costumes, maximizing movement is of course important but being able to create flow as well through longer, ballgown style dresses (or slightly modified tutus for ballet sections) as well as longer capes for the male roles would allow greater life within the piece.",
+        productionimg1: DeclanProduction1,
+        productionimg1Alt: "A costume sketch titled 'Prince', wearing white dance pants with a blue royal coat",
+        productionimg2: DeclanProduction2,
+        productionimg2Alt: "A costume sketch titled 'Lover', wearing an orange tutu over an orange bodice with flowy sleeves",
+        productionimg3: DeclanProduction3,
+        productionimg3Alt: "A costume sketch titled 'King', wearing all black dress clothes featuring small stars and a big black royal cape over the top of it",
+        productionimg4: DeclanProduction4,
+        productionimg4Alt: "A costume sketch titled 'Attendant', wearing a gray tailed vest over a white dress shirt and black dress pants.",
+
+        finalName: "A Midsummer Nights Dream - Back to the Classics",
+        finalStatement: "A Midsummer Night’s Dream is one of Shakespeare’s best known comedies, but also well know for the wide range of ways it has been produced. From Peter Brook’s one white room production in 1970 to Julie Taymor’s maximalist 2013 production, there’s so much room in the text to do what you want. What I see in reading this text is the wildness of the fae juxtaposed against the ‘civility’ of the Athenians, even as the Athenians deny love and the fae are the invisible hand that work to bring it together. In staging this, I want distinctly animalistic elements to be part of the costume of every fae and faerie, from fangs to tails to ears to claws maybe, lots of fur and hooves for Puck at the least if nobody else. They will be regal, but regal in the way a wild beast rules an area instead of the royal presence granted by law among humans. For the Athenians, I perhaps took Athenian too literally but I see them in togas. Royal purple, loose fitting robes with gold and silver trim for those in high positions. Their servants may be dressed in much simpler cloth, perhaps even a shirt and pants, but distinctly not modern. Blurring the line slightly on modernity, I want Bottom’s mechanicals to have modern tools that let the audience very easily pick up on their professions. I want their work to be part of their costume, layered over an otherwise simple base that gets increasingly covered as they stray further and further from their mundane reality into the worlds of both the play and the fae, gaining colorful costume pieces and perhaps even masks.",
+        finalimg1: DeclanMidsummer1,
+        finalimg1Alt: "A set of three sketches, titled 'The Fae' of costumes for Puck, dressed like a satyr with silver bracelets, Oberon, in green pants with a golden livery collar connecting to golden bracers, and Titania, in a long brown dress and silver livery collar",
+        finalimg2: DeclanMidsummer2,
+        finalimg2Alt: "A sketch for a costume for Theseus, wearing a traditional Roman toga with royal purple overlayer, a victory laurel crown, and ancient sandals",
+        finalimg3: DeclanMidsummer3,
+        finalimg3Alt: "A sketch for the base outfit of any of the players, a simple cloth tunic mimicking the Roman toga and tied off with rope. Also wearing ancient sandals",
+        finalimg4: DeclanMidsummer4,
+        finalimg4Alt: "A sketch for Bottom while he is cursed with donkey ears. Wearing the base costume of the players, donkey ears, a tail, and some loose red cloth has been tied around the rope on his waist",
+        finalimg5: DeclanMidsummer5,
+        finalimg5Alt: "A sketch for Bottom while he is playing Pyramus at the end of the play. No longer wearing ears or a tail, he now has leather bracers, a sword tucked into his rope belt, a red cape, and additional red fabric attached over his basic cloth tunic.",
     },
     {
         id: 3,
