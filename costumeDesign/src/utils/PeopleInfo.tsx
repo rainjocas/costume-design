@@ -52,6 +52,24 @@ import MartinaMidsummer3 from "../assets/Martina-Tognato-Guaqueta/Midsummer3.png
 import MartinaMidsummer4 from "../assets/Martina-Tognato-Guaqueta/Midsummer4.png"
 import MartinaMidsummer5 from "../assets/Martina-Tognato-Guaqueta/Midsummer5.png"
 
+import MollyWorker from "../assets/Molly-Richardson/Work_Clothing_Project 2.png"
+import MollyWorkerPL from "../assets/Molly-Richardson/work clothing PL.png"
+import MollyMusic1 from "../assets/Molly-Richardson/Responding_To_Music_1 .png"
+import MollyMusic2 from "../assets/Molly-Richardson/Responding_To_Music_2 .png"
+import MollyMusicPL from "../assets/Molly-Richardson/music PL.png"
+import MollyConstruction1 from "../assets/Molly-Richardson/construction sketch 1.png"
+import MollyConstruction2 from "../assets/Molly-Richardson/construction sketch 2.png"
+import MollyConstruction3 from "../assets/Molly-Richardson/Dull_Gret_Tech_Sketch.png"
+import MollyProduction1 from "../assets/Molly-Richardson/Uranus_1.png"
+import MollyProduction2 from "../assets/Molly-Richardson/Uranus_2.png"
+import MollyProduction3 from "../assets/Molly-Richardson/Uranus_3.png"
+import MollyProduction4 from "../assets/Molly-Richardson/Uranus_4.png"
+import MollyMidsummer1 from "../assets/Molly-Richardson/final sketch 1.png"
+import MollyMidsummer2 from "../assets/Molly-Richardson/final sketch 2.png"
+import MollyMidsummer3 from "../assets/Molly-Richardson/final sketch 3.png"
+import MollyMidsummer4 from "../assets/Molly-Richardson/final sketch 4.png"
+import MollyMidsummer5 from "../assets/Molly-Richardson/final sketch 5.png"
+
 import RainWorker from "../assets/Rain-Jocas/Worker.png"
 import RainMusic from "../assets/Rain-Jocas/Ballet.png"
 import RainConstruction1 from "../assets/Rain-Jocas/Astronaut.png"
@@ -312,12 +330,58 @@ export const People = [
     },
     {
         id: 8,
-        name: "Molly-Richardson",
+        name: "Molly Richardson",
 
         email: "",
         phone: "",
         linkedIn: "",
         resume: "",
+
+        workName: "Nurse Clothing",
+        workClothingimg: MollyWorker,
+        workClothingimgAlt: "Illustration of a nurse wearing red scrubs, black shoes, a blue surgical cap and face mask, and a stethoscope around the neck.",
+        workClothingPeiceList: MollyWorkerPL,
+
+        musicName: "Glosóli by Sigur Rós",
+        musicStatement: "https://drive.google.com/file/d/1mvRX5Nz_quF6NJ5EWJBH93EezKD7i66W/view?usp=share_link",
+        musicimg1: MollyMusic1,
+        musicimg1Alt: "Illustration of a costume design featuring a shimmering silver leotard, a sheer silver dance skirt, glowing ribbons extending from the hips and arms, and a sheer silver shrug. The figure has long, wavy silver hair",
+        musicimg2: MollyMusic2,
+        musicimg2Alt: "Illustration of a costume design featuring a patterned blue-purple long-sleeve crop top, flare purple leggings and a matching headband and black shoes.",
+        musicPeiceList: MollyMusicPL,
+
+        constructionName: "Top Girls by Caryl Churchill",
+        constructionStatement: "https://drive.google.com/file/d/1UF66dPkQs06k7QZjbeYaqTBIPVHxcVvJ/view?usp=share_link",
+        constructionimg1: MollyConstruction1,
+        constructionimg1Alt: "Illustration of a woman wearing a long-sleeve long green dress with gold trim around the square neckline, waist, wrists, and bottom of skirt and matching green pointy shoes.",
+        constructionimg2: MollyConstruction2,
+        constructionimg2Alt: "Illustration of a bright pink blazer and matching pencil skirt, white undershirt, gray belt, and black pumps on a figure of a woman with hands in her pockets.",
+        constructionimg3: MollyConstruction3,
+        constructionimg3Alt: "Costume design sketch of a figure wearing a long brown dress and combat boots featuring an armor hat, chest plate, and one glove. Technical fashion details are drawn.",
+
+        productionName: "The Planets (Uranus) by Gustav Holst",
+        productionStatement: "https://drive.google.com/file/d/1zwN8YFCU2DVQLCDOeSn715r6zmTr7zvk/view?usp=share_link",
+        productionimg1: MollyProduction1,
+        productionimg1Alt: "Two illustrations of a woman dancer: one in all light blue dance clothes and the other in some light blue and some dark blue dance clothes.",
+        productionimg2: MollyProduction2,
+        productionimg2Alt: "Two illustrations of a woman dancer: one in all dark blue dance clothes and the other in some dark blue and some light blue dance clothes.",
+        productionimg3: MollyProduction3,
+        productionimg3Alt: "Two illustrations of a man dancer: one in all light blue dance clothes and the other in some light blue and some dark blue dance clothes.",
+        productionimg4: MollyProduction4,
+        productionimg4Alt: "Two illustrations of a man dancer: one in all dark blue dance clothes and the other in some dark blue and some white dance clothes.",
+
+        finalName: "A Midsummer Night’s Dream by Shakespeare",
+        finalStatement: "https://drive.google.com/file/d/1W3YtHssN9I-nJhA1Dn5sfFsIwCq3vjNH/view?usp=share_link",
+        finalimg1: MollyMidsummer1,
+        finalimg1Alt: "Two illustrations of a woman: the first wearing a white dress and white shoes, the second wearing a pink triangle bra and light blue capris.",
+        finalimg2: MollyMidsummer2,
+        finalimg2Alt: "Illustration of a woman wearing a brown pantsuit, white collared open shirt, and gold necklaces. Figure has hands in her pockets.",
+        finalimg3: MollyMidsummer3,
+        finalimg3Alt: "Illustration of a figure wearing neon pink, green, and blue clothing with bracelets, a necklace, and frosted tips hair.",
+        finalimg4: MollyMidsummer4,
+        finalimg4Alt: "Illustration of a figure with shoulder-length blonde hair wearing a gray shirt under a red plaid long-sleeve top, denim ripped jeans, and black shoes.",
+        finalimg5: MollyMidsummer5,
+        finalimg5Alt: "Illustration of a woman with silver hair and hands on hips wearing a purple crop top and sparkly skirt, platform purple shoes, and purple-silver necklaces and crown.",
     },
     {
         id: 9,
