@@ -52,6 +52,24 @@ import DeclanMidsummer3 from "../assets/Declan-OConnell/Bottom.png"
 import DeclanMidsummer4 from "../assets/Declan-OConnell/Bottom 2.png"
 import DeclanMidsummer5 from "../assets/Declan-OConnell/Bottom 3.png"
 
+import ElanaWorker from "../assets/Elana-Sheinkopf/Worker.png"
+import ElanaWorkerPL from "../assets/Elana-Sheinkopf/Worker PL.png"
+import ElanaMusic1 from "../assets/Elana-Sheinkopf/Music 1.png"
+import ElanaMusic2 from "../assets/Elana-Sheinkopf/Music 2.png"
+import ElanaMusicPL from "../assets/Elana-Sheinkopf/Music PL.png"
+import ElanaConstruction1 from "../assets/Elana-Sheinkopf/Construction 1.png"
+import ElanaConstruction2 from "../assets/Elana-Sheinkopf/Construction 2.png"
+import ElanaConstruction3 from "../assets/Elana-Sheinkopf/Construction 3.png"
+import ElanaProduction1 from "../assets/Elana-Sheinkopf/Production 1.png"
+import ElanaProduction2 from "../assets/Elana-Sheinkopf/Production 2.png"
+import ElanaProduction3 from "../assets/Elana-Sheinkopf/Production 3.png"
+import ElanaProduction4 from "../assets/Elana-Sheinkopf/Production 4.png"
+import ElanaMidsummer1 from "../assets/Elana-Sheinkopf/Final 1.png"
+import ElanaMidsummer2 from "../assets/Elana-Sheinkopf/Final 2.png"
+import ElanaMidsummer3 from "../assets/Elana-Sheinkopf/Final 3.png"
+import ElanaMidsummer4 from "../assets/Elana-Sheinkopf/Final 4.png"
+import ElanaMidsummer5 from "../assets/Elana-Sheinkopf/Final 5.png"
+
 import MartinaWorker from "../assets/Martina-Tognato-Guaqueta/Worker.jpg"
 import MartinaWorkerPL from "../assets/Martina-Tognato-Guaqueta/WorkerPL.png"
 import MartinaMusic1 from "../assets/Martina-Tognato-Guaqueta/Music1.jpg"
@@ -326,12 +344,59 @@ export const People = [
     },
     {
         id: 3,
-        name: "Elana-Sheinkopf",
 
-        email: "",
+        name: "Elana Sheinkopf",
+        email: "erlsri92@gmail.com",
         phone: "",
-        linkedIn: "",
+        linkedIn: "www.linkedin.com/in/elana-sheinkopf",
         resume: "",
+
+        workName: "Bowdoin Teacher Scholar",
+        workClothingimg: ElanaWorker,
+        workClothingimgAlt: "Sketch of student teacher in sweatervest buttondown combo",
+        workClothingPeiceList: ElanaWorkerPL,
+
+        musicName: "The Firebird Suite",
+        musicStatement: "I am designing costumes responding to the music of The Firebird Suite. This design is not based on knowledge/familiarity of of the piece’s usual storyline or other productions; instead it is based on my reactions to just the music, emotional vibes, images it produces, etc. Surprisingly for a piece of this name, I am getting along with the fire some watery vibes. I would like to present this as two contrasting characters, a waterbird alongside a firebird. This could present as a story of ~forbidden love~ perhaps; opposites meeting and celebrating each other, and working through the conflicts which arise therein.",
+        musicimg1: ElanaMusic1,
+        musicimg1Alt: "Listening Impressions (I.e. Breakdown pretty version). Start: dark, ominous, warlike. Bird (?) interjection lighter, tentative/mischievous? Anxious. Breath, ripples, straw and reeds. Questioning.  Tide. Danger, thawing?, fracture. Then spring? Chase. Frayed ribbon. Interlude 5 min in: sweetness, tenderness, love? Bittersweet. Internal conflict, tension. The dry banks of a drying stream. Pyrotechnics. Tears. Rebirth (obv it's a phoenix).",
+        musicimg2: ElanaMusic2,
+        musicimg2Alt: "“Firebird” by Misty Copeland, illustrations by Christopher Myers. Panels. Mix of warm and cool colors. Patchwork. Pattern mixing. Collage. “the space between you and me / is longer than forever.” “before before it all.” “we’ll make the night sky our starry curtain.” “… and I will show them that forever is not so far away.”",
+        musicPeiceList: ElanaMusicPL,
+
+        constructionName: "The Firebird Suite",
+        constructionStatement: "Due to extenuating circumstances, this project is also using the Firebird design. Using a miniature mannequin, I did the draping for the Waterbird’s two-part skirt, as you will see in the technical sketch, alongside the color sketches for the paired bird dancers which I put together.",
+        constructionimg1: ElanaConstruction1,
+        constructionimg1Alt: "Technical sketch of Waterbird skirt showing paneled front, solid fabric back, and side view with both visible",
+        constructionimg2: ElanaConstruction2,
+        constructionimg2Alt: "Waterbird costume sketch, figure in cool tones with two-toned leggings and skirt with solid back and paneled front",
+        constructionimg3: ElanaConstruction3,
+        constructionimg3Alt: "Firebird costume sketch, figure in warm tones with two-toned leggings, paneled orange cape, and gray and white wrist ribbons",
+
+        productionName: "The Firebird Suite",
+        productionStatement: "Due to extenuating circumstances, this project is also using the Firebird design. Jumping back a bit in the design process, you will see here some of the images which came to mind when I was initially listening to the music and formulating the paired birds design. You will also see the much farther in the process inspirations of the actual shirts the dancers will wear and the fabric I will use for the back of the Waterbird skirt.",
+        productionimg1: ElanaProduction1,
+        productionimg1Alt: "Two photographs of grass/reeds and water, one image of pink and blue figures reflected in water",
+        productionimg2: ElanaProduction2,
+        productionimg2Alt: "Photographs of gondolas amongst lit river braziers captioned 'WaterFire! Providence, RI'",
+        productionimg3: ElanaProduction3,
+        productionimg3Alt: "Images of ice and fire",
+        productionimg4: ElanaProduction4,
+        productionimg4Alt: "Photographs of blue and white ballet tops and dark blue dress for fabric",
+
+        finalName: "A Midsummer Night's Dream",
+        finalStatement: "I would like to base my design around a café on Cape Cod called Snowy Owl Coffee Roasters. This café has an outdoor seating area and extended garden which is very woodland whimsical and on first visit made me think of an outdoor production of A Midsummer Night’s Dream. I would like to lean into this setting by making the mechanicals baristas and fitting the other characters around this semi-ridiculous premise as the different kind of customers who might frequent this shop. I may also mix time periods, i.e. maybe mixing up different eras of barista wear. This play is timeless in my view, and so mixing times anachronistically adds to the whimsical ridiculous fun. I also might want to lean into the queerness of a coffee shop (think queer hipster vibes).",
+        finalimg1: ElanaMidsummer1,
+        finalimg1Alt: "Costume sketch of Lysander as a coffee shop hipster bro, coffee-themed sweatshirt alongside",
+        finalimg2: ElanaMidsummer2,
+        finalimg2Alt: "Costume sketch of Bottom as a barista with rubber horse/donkey head, apron, and beanie",
+        finalimg3: ElanaMidsummer3,
+        finalimg3Alt: "Costume sketch of Puck in matching dark floral vest and shorts plus Lysander's beanie",
+        finalimg4: ElanaMidsummer4,
+        finalimg4Alt: "Costume sketch of Hermia in white floral sundress and flip flops; note on dress: 'cover with Lysander's sweatshirt at times'",
+        finalimg5: ElanaMidsummer5,
+        finalimg5Alt: "Costume sketch of Hippolyta in chic business wear",
+
     },
     {
         id: 4,
