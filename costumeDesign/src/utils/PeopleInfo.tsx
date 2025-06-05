@@ -666,7 +666,7 @@ export const People = [
         workName: "Work Clothing Project",
         workClothingimg: TaliWorker,
         workClothingimgAlt: "Randy Nichols in uniform",
-        workClothingPieceList: TaliWorkerPL
+        workClothingPieceList: TaliWorkerPL,
 
         musicName: "Responding to Music Project - Threads",
         musicStatement: "https://drive.google.com/file/d/1xuFGeHE0HL58AFtCc7U6_GzSqcp1EzmO/view?usp=sharing",
